@@ -1,0 +1,1 @@
+This repository provides supplementary results for the paper “Maxitive Donsker–Varadhan Formulation for Possibilistic Variational Inference,” submitted to ICML 2026, for the purpose of author–reviewer discussion during the review process.
