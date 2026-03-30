@@ -17,7 +17,7 @@ Out-of-domain (SVHN):
 | **Optimizer** | **FPR@95\%** $\downarrow$ | **Det. Err.** $\downarrow$  | **AUROC** $\uparrow$ | **AUPR-In** $\uparrow$ | **AUPR-Out** $\uparrow$ |
 |---|---:|---:|---:|---:|---:|
 | **uCBOpt $(\vartheta\to0^{+})$** | **36.6 (1.4)** | **34.4 (1.2)** | **68.7 (1.8)** | **57.1 (2.0)** | **80.6 (1.3)** |
-| **uCBOpt $(\vartheta=1 \cdot 10^{-5})$** | **** | **** | **** | **** | **** | 
+| **uCBOpt $(\vartheta=1 \cdot 10^{-5})$** | **35.9 (1.1)** | **33.4 (1.4)** | **70.0 (1.7)** | **58.1 (2.8)** | **81.3 (1.0)** | 
 | IVON@mean |  |  |  |  |  |
 | SGD |  |  |  |  |  | 
 | Laplace |  |  |  |  |  | 
@@ -26,7 +26,7 @@ Out-of-domain (Flowers102):
 | **Optimizer** | **FPR@95\%** $\downarrow$ | **Det. Err.** $\downarrow$  | **AUROC** $\uparrow$ | **AUPR-In** $\uparrow$ | **AUPR-Out** $\uparrow$ |
 |---|---:|---:|---:|---:|---:|
 | **uCBOpt $(\vartheta\to0^{+})$** | **33.3 (1.6)** | **31.4 (2.1)** | **74.4 (2.4)** | **84.2 (1.7)** | **59.5 (2.8)** |
-| **uCBOpt $(\vartheta=1 \cdot 10^{-5})$** | **** | **** | **** | **** | **** | 
+| **uCBOpt $(\vartheta=1 \cdot 10^{-5})$** | **32.3 (1.9)** | **30.6 (1.8)** | **75.0 (2.2)** | **84.6 (1.7)** | **60.0 (2.5)** | 
 | IVON@mean |  |  |  |  |  |
 | SGD |  |  |  |  |  | 
 | Laplace |  |  |  |  |  | 
