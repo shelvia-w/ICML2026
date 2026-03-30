@@ -1,4 +1,4 @@
-# Computational Efficiency
+## Computational Efficiency
 
 We measure the average runtime for one training epoch and the peak GPU memory usage of ResNet-20 trained on CIFAR-10:
 
