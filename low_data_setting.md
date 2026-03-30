@@ -1,4 +1,8 @@
-## Train Fraction = 10% (5000 samples)
+# Low-data Setting
+
+We report the performance of uCBOpt and other baselines on ResNet-20 trained on CIFAR-10 with reduced training samples, for both in-domain and out-of-domain tasks.
+
+## Train Fraction = 10% (5000 training samples)
 
 In-domain:
 | **Optimizer** | **Top-1 Acc.** $\uparrow$ | **Top-5 Acc.** $\uparrow$ | **NLL** $\downarrow$ | **ECE** $\downarrow$ | **Brier** $\downarrow$ |
@@ -27,7 +31,7 @@ Out-of-domain (Flowers102):
 | SGD |  |  |  |  |  | 
 | Laplace |  |  |  |  |  | 
 
-## Train Fraction = 5% (1000 samples)
+## Train Fraction = 5% (1000 training samples)
 
 | **Optimizer** | **Top-1 Acc.** $\uparrow$ | **Top-5 Acc.** $\uparrow$ | **NLL** $\downarrow$ | **ECE** $\downarrow$ | **Brier** $\downarrow$ |
 |---|---:|---:|---:|---:|---:|
