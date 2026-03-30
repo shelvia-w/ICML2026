@@ -25,7 +25,7 @@ Out-of-domain (SVHN):
 Out-of-domain (Flowers102):
 | **Optimizer** | **FPR@95\%** $\downarrow$ | **Det. Err.** $\downarrow$  | **AUROC** $\uparrow$ | **AUPR-In** $\uparrow$ | **AUPR-Out** $\uparrow$ |
 |---|---:|---:|---:|---:|---:|
-| **uCBOpt $(\vartheta\to0^{+})$** | **** | **** | **** | **** | **** |
+| **uCBOpt $(\vartheta\to0^{+})$** | **33.3 (1.6)** | **31.4 (2.1)** | **74.4 (2.4)** | **84.2 (1.7)** | **59.5 (2.8)** |
 | **uCBOpt $(\vartheta=1 \cdot 10^{-5})$** | **** | **** | **** | **** | **** | 
 | IVON@mean |  |  |  |  |  |
 | SGD |  |  |  |  |  | 
