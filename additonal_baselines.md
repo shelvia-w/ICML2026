@@ -1,3 +1,7 @@
+## Additional Baselines
+
+We report the performance of Deterministic Uncertainty Quantification (DUQ) and Spectral-normalized Neural Gaussian Process (SNGP) on the in-domain task (ResNet-20 on CIFAR-10) as well as the out-of-domain tasks (SVHN and Flowers102).
+
 In-domain:
 | **Optimizer** | **Top-1 Acc.** $\uparrow$ | **Top-5 Acc.** $\uparrow$ | **NLL** $\downarrow$ | **ECE** $\downarrow$ | **Brier** $\downarrow$ |
 |---|---:|---:|---:|---:|---:|
